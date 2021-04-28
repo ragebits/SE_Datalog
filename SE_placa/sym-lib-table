@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP32-WROVER)(type Legacy)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/ESP32-WROVER/ESP32-WROVER.lib")(options "")(descr ""))
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib")(options "")(descr ""))
+  (lib (name EspressIf)(type Legacy)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/ESP32-WROVER-E-main/EspressIf.lib")(options "")(descr ""))
+)
