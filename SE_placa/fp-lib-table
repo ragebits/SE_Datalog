@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name B3U-1000P)(type KiCad)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/B3U-1000P")(options "")(descr ""))
   (lib (name ESP32-WROVER-I)(type KiCad)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/ESP32-WROVER-I")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "C:/Users/poved/OneDrive - Blackstone/Maestria/Semestre I/Fabricacion SE/SE_Datalog/ul_20279001E01/KiCAD/2021-04-29_01-38-35/footprints.pretty")(options "")(descr ""))
 )

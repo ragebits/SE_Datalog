@@ -36,17 +36,6 @@ F 3 "" H 10660 2860 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Micro_SD_Card J2
-U 1 1 6077F42C
-P 5085 9700
-F 0 "J2" H 5035 10417 50  0000 C CNN
-F 1 "Micro_SD_Card" H 5035 10326 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 6235 10000 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 5085 9700 50  0001 C CNN
-	1    5085 9700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR021
 U 1 1 607CBBE1
 P 12775 1835
@@ -83,7 +72,7 @@ Connection ~ 13410 3510
 Wire Wire Line
 	13410 3510 13610 3510
 Wire Wire Line
-	13310 2310 13310 2010
+	13310 2310 13310 2060
 Wire Wire Line
 	11060 2610 12810 2610
 Wire Wire Line
@@ -114,8 +103,6 @@ Wire Wire Line
 	11060 3710 11460 3710
 Text Label 11060 3710 0    50   ~ 0
 SPI1-RST
-Wire Wire Line
-	9310 2410 9010 2410
 Text Label 9010 2410 0    50   ~ 0
 GND
 $Comp
@@ -188,32 +175,20 @@ Wire Wire Line
 	4035 9300 4035 9400
 Connection ~ 4035 9400
 Wire Wire Line
-	4035 9400 4185 9400
-Wire Wire Line
 	3785 9300 3785 9500
 Connection ~ 3785 9500
-Wire Wire Line
-	3785 9500 4185 9500
 Wire Wire Line
 	3535 9300 3535 9600
 Connection ~ 3535 9600
 Wire Wire Line
-	3535 9600 4185 9600
-Wire Wire Line
 	3285 9300 3285 9800
 Connection ~ 3285 9800
-Wire Wire Line
-	3285 9800 4185 9800
 Wire Wire Line
 	3035 9300 3035 10000
 Connection ~ 3035 10000
 Wire Wire Line
-	3035 10000 4185 10000
-Wire Wire Line
 	2785 9300 2785 10100
 Connection ~ 2785 10100
-Wire Wire Line
-	2785 10100 4185 10100
 Wire Wire Line
 	4035 9000 4035 8800
 Wire Wire Line
@@ -255,8 +230,6 @@ Wire Wire Line
 	2485 9300 2485 9900
 Connection ~ 2485 9900
 Wire Wire Line
-	2485 9900 4185 9900
-Wire Wire Line
 	2485 9000 2485 8800
 Wire Wire Line
 	2485 8800 2785 8800
@@ -276,8 +249,6 @@ Wire Wire Line
 	2285 9700 2285 8800
 Wire Wire Line
 	2285 8800 2485 8800
-Wire Wire Line
-	2285 9700 4185 9700
 Connection ~ 2485 8800
 $Comp
 L power:+3.3V #PWR09
@@ -393,8 +364,6 @@ Text Label 14435 6000 0    50   ~ 0
 GND
 Text Label 14435 6100 0    50   ~ 0
 VCC-ESP
-Wire Wire Line
-	9015 2510 9310 2510
 Text Notes 750  910  0    157  ~ 31
 POWER
 Text Notes 13590 6440 0    118  ~ 0
@@ -405,8 +374,6 @@ Text Notes 7725 960  0    157  ~ 31
 MODULO-ESP32\n
 Text Notes 12440 1130 0    157  ~ 31
 MODULO LORA\n(SPI1)\n
-Wire Wire Line
-	9310 2610 9015 2610
 Text Label 9015 2610 0    50   ~ 0
 EN-ESP
 $Comp
@@ -874,7 +841,7 @@ IO39-I39
 Text Label 8215 7165 0    50   ~ 0
 IO34-I34
 Text Label 8215 7265 0    50   ~ 0
-I035-I35
+IO35-I35
 Wire Wire Line
 	8620 2710 9310 2710
 Text Label 7800 2710 0    50   ~ 0
@@ -901,8 +868,6 @@ Wire Wire Line
 	7800 2910 8320 2910
 Text Label 7800 3010 0    50   ~ 0
 IO35-I35
-Wire Wire Line
-	7800 3010 8320 3010
 Wire Wire Line
 	8610 6765 8225 6765
 Wire Wire Line
@@ -1131,7 +1096,7 @@ F 3 "" H 2070 1510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2070 1510 2070 1710
+	2070 1510 2070 1555
 Connection ~ 2070 1710
 Wire Wire Line
 	2070 1710 2205 1710
@@ -1201,8 +1166,8 @@ U 1 1 6198A7A3
 P 14765 2610
 F 0 "J6" H 14967 2650 50  0000 L CNN
 F 1 "U.FL-R-SMT(01)" H 15010 2535 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical" H 14765 2610 50  0001 L BNN
-F 3 "" H 14765 2610 50  0001 L BNN
+F 2 "U:HRS_U.FL-R-SMT(01)" H 14765 2610 50  0001 L BNN
+F 3 "https://www.sigmaelectronica.net/producto/con-u-fl-smd-m/" H 14765 2610 50  0001 L BNN
 F 4 "Hirose" H 14765 2610 50  0001 L BNN "MF"
 F 5 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" H 14765 2610 50  0001 L BNN "DESCRIPTION"
 F 6 "U.FL-R-SMT(01)" H 14765 2610 50  0001 L BNN "MP"
@@ -1593,4 +1558,140 @@ F 3 "~" H 12540 7145 50  0001 C CNN
 	1    12540 7145
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60974DFB
+P 9005 2240
+F 0 "#FLG0101" H 9005 2315 50  0001 C CNN
+F 1 "PWR_FLAG" H 9005 2413 50  0000 C CNN
+F 2 "" H 9005 2240 50  0001 C CNN
+F 3 "~" H 9005 2240 50  0001 C CNN
+	1    9005 2240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9005 2240 9005 2410
+Wire Wire Line
+	9005 2410 9310 2410
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6098BE32
+P 8735 2145
+F 0 "#FLG0102" H 8735 2220 50  0001 C CNN
+F 1 "PWR_FLAG" H 8735 2318 50  0000 C CNN
+F 2 "" H 8735 2145 50  0001 C CNN
+F 3 "~" H 8735 2145 50  0001 C CNN
+	1    8735 2145
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6098C5D4
+P 8470 2070
+F 0 "#FLG0103" H 8470 2145 50  0001 C CNN
+F 1 "PWR_FLAG" H 8470 2243 50  0000 C CNN
+F 2 "" H 8470 2070 50  0001 C CNN
+F 3 "~" H 8470 2070 50  0001 C CNN
+	1    8470 2070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8735 2510 9310 2510
+Wire Wire Line
+	8470 2070 8470 2610
+Wire Wire Line
+	8470 2610 9310 2610
+Wire Wire Line
+	8735 2145 8735 2510
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 609FFFB7
+P 1905 1380
+F 0 "#FLG0104" H 1905 1455 50  0001 C CNN
+F 1 "PWR_FLAG" H 1905 1553 50  0000 C CNN
+F 2 "" H 1905 1380 50  0001 C CNN
+F 3 "~" H 1905 1380 50  0001 C CNN
+	1    1905 1380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1905 1555 2070 1555
+Connection ~ 2070 1555
+Wire Wire Line
+	2070 1555 2070 1710
+Wire Wire Line
+	1905 1555 1905 1380
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 60A40AD1
+P 13605 1970
+F 0 "#FLG0105" H 13605 2045 50  0001 C CNN
+F 1 "PWR_FLAG" H 13605 2143 50  0000 C CNN
+F 2 "" H 13605 1970 50  0001 C CNN
+F 3 "~" H 13605 1970 50  0001 C CNN
+	1    13605 1970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13605 1970 13605 2060
+Wire Wire Line
+	13605 2060 13310 2060
+Connection ~ 13310 2060
+Wire Wire Line
+	13310 2060 13310 2010
+NoConn ~ 11060 4110
+NoConn ~ 11060 4210
+NoConn ~ 11060 4310
+NoConn ~ 9310 4010
+NoConn ~ 9310 4110
+NoConn ~ 9310 4210
+NoConn ~ 13810 2710
+NoConn ~ 13810 2810
+NoConn ~ 13810 2910
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 60AED136
+P 2485 8595
+F 0 "#FLG0106" H 2485 8670 50  0001 C CNN
+F 1 "PWR_FLAG" H 2485 8768 50  0000 C CNN
+F 2 "" H 2485 8595 50  0001 C CNN
+F 3 "~" H 2485 8595 50  0001 C CNN
+	1    2485 8595
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2485 8595 2485 8800
+Wire Wire Line
+	2485 8800 2485 8805
+Wire Wire Line
+	7800 3010 8320 3010
+Wire Wire Line
+	2785 10100 4185 10100
+Wire Wire Line
+	3035 10000 4185 10000
+Wire Wire Line
+	2485 9900 4185 9900
+Wire Wire Line
+	3285 9800 4185 9800
+Wire Wire Line
+	2285 9700 4185 9700
+Wire Wire Line
+	3535 9600 4185 9600
+Wire Wire Line
+	3785 9500 4185 9500
+Wire Wire Line
+	4035 9400 4185 9400
+$Comp
+L Connector:Micro_SD_Card_Det_Hirose_DM3AT J9
+U 1 1 60B99449
+P 5085 9800
+F 0 "J9" H 5035 10617 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 5035 10526 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 7135 10500 50  0001 C CNN
+F 3 "https://www.sigmaelectronica.net/producto/dm3at/" H 5085 9900 50  0001 C CNN
+	1    5085 9800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4185 10200
+NoConn ~ 4185 10300
 $EndSCHEMATC
