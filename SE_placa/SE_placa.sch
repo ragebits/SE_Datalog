@@ -5,11 +5,11 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
 Title "SE_1"
-Date "2021-05-02"
+Date "2021-05-05"
 Rev "1.0"
-Comp "Poveda"
+Comp "Universidad Nacional de Colombia"
 Comment1 "Wilson Poveda"
-Comment2 "Universidad Nacional de Colombia"
+Comment2 ""
 Comment3 "GRID 25 mil"
 Comment4 ""
 $EndDescr

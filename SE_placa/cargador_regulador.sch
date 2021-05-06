@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Cargador Regulador bateria litio "
+Date "2021-05-05"
+Rev "1"
+Comp "Universidad Nacional de Colombia"
+Comment1 "Wilson Alberto Poveda Osorio"
+Comment2 "Grid 25 mil"
 Comment3 ""
 Comment4 ""
 $EndDescr
