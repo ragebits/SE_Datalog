@@ -535,7 +535,7 @@ U 1 1 6198A7A3
 P 14750 2600
 F 0 "J7" H 14952 2640 50  0000 L CNN
 F 1 "U.FL-R-SMT(01)" H 14995 2525 50  0000 L CNN
-F 2 "U:HRS_U.FL-R-SMT(01)" H 14750 2600 50  0001 L BNN
+F 2 "HRS_U.FL-R-SMT(01)" H 14750 2600 50  0001 L BNN
 F 3 "https://www.sigmaelectronica.net/producto/con-u-fl-smd-m/" H 14750 2600 50  0001 L BNN
 F 4 "Hirose" H 14750 2600 50  0001 L BNN "MF"
 F 5 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" H 14750 2600 50  0001 L BNN "DESCRIPTION"
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3900 8800 3900
 $Comp
-L esp32-wrover:ESP32-WROVER U1
+L SE_placa-rescue:ESP32-WROVER-esp32-wrover U1
 U 1 1 6077AD20
 P 10200 3150
 F 0 "U1" H 10175 4487 60  0000 C CNN
@@ -1058,7 +1058,7 @@ P 5150 9800
 F 0 "J2" H 5100 10617 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 5100 10526 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 7200 10500 50  0001 C CNN
-F 3 "https://www.sigmaelectronica.net/producto/dm3at/" H 5150 9900 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5150 9900 50  0001 C CNN
 	1    5150 9800
 	1    0    0    -1  
 $EndComp
