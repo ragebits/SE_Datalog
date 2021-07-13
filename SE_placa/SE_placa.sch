@@ -535,7 +535,7 @@ U 1 1 6198A7A3
 P 14750 2600
 F 0 "J7" H 14952 2640 50  0000 L CNN
 F 1 "U.FL-R-SMT(01)" H 14995 2525 50  0000 L CNN
-F 2 "HRS_U.FL-R-SMT(01)" H 14750 2600 50  0001 L BNN
+F 2 "U:HRS_U.FL-R-SMT(01)" H 14750 2600 50  0001 L BNN
 F 3 "https://www.sigmaelectronica.net/producto/con-u-fl-smd-m/" H 14750 2600 50  0001 L BNN
 F 4 "Hirose" H 14750 2600 50  0001 L BNN "MF"
 F 5 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" H 14750 2600 50  0001 L BNN "DESCRIPTION"
@@ -1594,22 +1594,12 @@ Wire Wire Line
 Wire Wire Line
 	5325 2450 5325 2575
 Wire Wire Line
-	5325 2000 6000 2000
-Wire Wire Line
 	5325 2150 5325 2000
 Wire Wire Line
 	6000 2000 6000 2125
 Connection ~ 6000 2000
 Wire Wire Line
 	6000 2000 6000 1750
-Connection ~ 5325 2000
-Wire Wire Line
-	4975 2000 5325 2000
-Wire Wire Line
-	4325 2000 4675 2000
-Wire Wire Line
-	4325 1750 4325 2000
-Connection ~ 4325 2000
 $Comp
 L power:+3V3 #PWR043
 U 1 1 60B718C3
@@ -1678,14 +1668,14 @@ $EndComp
 $Comp
 L Device:L L1
 U 1 1 60B718E1
-P 4825 2000
+P 4750 2000
 AR Path="/60B718E1" Ref="L1"  Part="1" 
 AR Path="/609FB393/60B718E1" Ref="L?"  Part="1" 
-F 0 "L1" V 5015 2000 50  0000 C CNN
-F 1 "2A 120 ohm" V 4924 2000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4825 2000 50  0001 C CNN
-F 3 "~" H 4825 2000 50  0001 C CNN
-	1    4825 2000
+F 0 "L1" V 4940 2000 50  0000 C CNN
+F 1 "2A 120 ohm" V 4849 2000 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 2000 50  0001 C CNN
+F 3 "~" H 4750 2000 50  0001 C CNN
+	1    4750 2000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1694,8 +1684,6 @@ Wire Wire Line
 	2575 2350 4075 2350
 Wire Wire Line
 	4075 2350 4075 2000
-Wire Wire Line
-	4075 2000 4325 2000
 $Comp
 L power:GND #PWR0101
 U 1 1 60AF3B1E
@@ -1713,4 +1701,71 @@ Text Notes 12125 8900 0    50   ~ 0
 Indicador VCC general\n
 Text Notes 14025 9725 0    50   ~ 0
 Indicador VCC Lora
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60EF16A7
+P 8900 5250
+F 0 "H2" H 9000 5296 50  0000 L CNN
+F 1 "MountingHole" H 9000 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 8900 5250 50  0001 C CNN
+F 3 "~" H 8900 5250 50  0001 C CNN
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60EF1BF8
+P 9800 5250
+F 0 "H4" H 9900 5296 50  0000 L CNN
+F 1 "MountingHole" H 9900 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9800 5250 50  0001 C CNN
+F 3 "~" H 9800 5250 50  0001 C CNN
+	1    9800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60EF20E2
+P 9775 5000
+F 0 "H3" H 9875 5046 50  0000 L CNN
+F 1 "MountingHole" H 9875 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9775 5000 50  0001 C CNN
+F 3 "~" H 9775 5000 50  0001 C CNN
+	1    9775 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60EF23F0
+P 8900 5000
+F 0 "H1" H 9000 5046 50  0000 L CNN
+F 1 "MountingHole" H 9000 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 8900 5000 50  0001 C CNN
+F 3 "~" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60FEDC40
+P 9825 6800
+F 0 "#PWR0102" H 9825 6550 50  0001 C CNN
+F 1 "GND" H 9830 6627 50  0000 C CNN
+F 2 "" H 9825 6800 50  0001 C CNN
+F 3 "" H 9825 6800 50  0001 C CNN
+	1    9825 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 2000 6000 2000
+Wire Wire Line
+	5325 2000 4900 2000
+Connection ~ 5325 2000
+Wire Wire Line
+	4600 2000 4325 2000
+Wire Wire Line
+	4325 1750 4325 2000
+Connection ~ 4325 2000
+Wire Wire Line
+	4325 2000 4075 2000
 $EndSCHEMATC
