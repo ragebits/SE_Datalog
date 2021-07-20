@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 397)
+    (tracks 398)
     (zones 0)
     (modules 70)
     (nets 75)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.3)
     (user_trace_width 0.3)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -3426,11 +3426,12 @@
   (segment (start 123.976 31.008) (end 122.408 31.008) (width 0.3) (layer F.Cu) (net 50))
   (segment (start 122.408 31.008) (end 122.174 31.242) (width 0.3) (layer F.Cu) (net 50))
   (via (at 122.174 31.242) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 50))
-  (segment (start 127.508 31.242) (end 130.81 34.544) (width 0.3) (layer B.Cu) (net 50))
-  (segment (start 122.174 31.242) (end 127.508 31.242) (width 0.3) (layer B.Cu) (net 50))
   (segment (start 125.97325 39.12675) (end 130.556 34.544) (width 1) (layer B.Cu) (net 50))
   (segment (start 130.556 34.544) (end 130.81 34.544) (width 1) (layer B.Cu) (net 50))
   (via (at 130.81 34.544) (size 1.8) (drill 1.4) (layers F.Cu B.Cu) (net 50))
+  (segment (start 123.19 34.544) (end 130.81 34.544) (width 0.3) (layer B.Cu) (net 50))
+  (segment (start 122.174 33.528) (end 123.19 34.544) (width 0.3) (layer B.Cu) (net 50))
+  (segment (start 122.174 31.242) (end 122.174 33.528) (width 0.3) (layer B.Cu) (net 50))
   (segment (start 132.588 36.989) (end 132.62 36.957) (width 0.3) (layer F.Cu) (net 51))
   (segment (start 132.588 37.084) (end 132.588 36.989) (width 0.3) (layer F.Cu) (net 51))
   (segment (start 132.545 28.237) (end 132.545 29.21) (width 0.3) (layer F.Cu) (net 51))
@@ -3489,7 +3490,6 @@
   (segment (start 212.0685 35.814) (end 212.005 35.8775) (width 0.4) (layer F.Cu) (net 72))
   (segment (start 128.778 39.667) (end 130.005 40.894) (width 1) (layer F.Cu) (net 73))
   (segment (start 128.778 33.782) (end 128.778 39.667) (width 1) (layer F.Cu) (net 73))
-  (segment (start 128.004 33.008) (end 128.778 33.782) (width 1) (layer F.Cu) (net 73))
   (segment (start 126.976 33.008) (end 128.004 33.008) (width 0.3) (layer F.Cu) (net 73))
   (segment (start 136.62 41.688) (end 136.62 40.894) (width 1) (layer F.Cu) (net 73))
   (segment (start 134.611 43.697) (end 136.62 41.688) (width 1) (layer F.Cu) (net 73))
@@ -3497,6 +3497,7 @@
   (segment (start 130.005 42.121) (end 130.005 40.894) (width 1) (layer F.Cu) (net 73))
   (segment (start 131.826 43.942) (end 130.005 42.121) (width 1) (layer F.Cu) (net 73))
   (segment (start 134.611 43.942) (end 131.826 43.942) (width 1) (layer F.Cu) (net 73))
+  (segment (start 128.004 33.008) (end 128.778 33.782) (width 0.3) (layer F.Cu) (net 73))
   (segment (start 131.108 31.508) (end 132.62 33.02) (width 0.3) (layer F.Cu) (net 74))
   (segment (start 126.976 31.508) (end 131.108 31.508) (width 0.3) (layer F.Cu) (net 74))
 
