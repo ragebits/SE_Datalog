@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3441EDE#PBF
+D LTC3441EDE#PBF, Switching Regulator, Boost/Buck Controller 1.2A, Adjustable, 2.4  5.25 V, 1150 kHz, 12-Pin
+K
+F http://cds.linear.com/docs/en/datasheet/3441fb.pdf
+$ENDCMP
+#
+#End Doc Library

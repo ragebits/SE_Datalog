@@ -1,0 +1,18 @@
+.LTC3441EDE_PBF :1 ;LTC3441EDE#PBF, Switching Regulator, Boost/Buck Controller 1.2A, Adjustable, 2.4  5.25 V, 1150 kHz, 12-Pin
+SON50P300X400X80-13N-D
+*STM IC
+*NGS
+*PLB 1="'SHDN'/SS" 2="GND" 3="PGND_1" 4="SW1" 5="SW2" 6="PGND_2" 7="MODE/SYNC" 8="VOUT" 9="PVIN" 10="VIN" 11="VC" 12="FB" 13="PGND_3"
+*MXP 13
+*DFN LTC3441EDE_PBF
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LTC3441EDE#PBF)
+~!Mouser Part Number (584-LTC3441EDE#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3441EDE%23PBF)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://cds.linear.com/docs/en/datasheet/3441fb.pdf)
+~!Height (0.8mm)
+~!3D_Model (LTC3441EDE#PBF)
+LTC3441EDE_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 

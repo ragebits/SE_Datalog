@@ -433,14 +433,12 @@ F 3 "~" H 14500 8325 50  0001 C CNN
 $EndComp
 Text Notes 11975 8225 0    157  ~ 31
 LEDS
-Text Label 8250 6975 0    50   ~ 0
+Text Label 8250 6875 0    50   ~ 0
 I36
 Text Label 8250 7075 0    50   ~ 0
 I39
-Text Label 8250 7175 0    50   ~ 0
-I34
 Text Label 8250 7275 0    50   ~ 0
-I35
+I34
 $Comp
 L power:GND #PWR018
 U 1 1 6177D577
@@ -621,7 +619,7 @@ Text Label 13975 3100 0    50   ~ 0
 L-DIO1
 Text Label 13975 3000 0    50   ~ 0
 L-DIO2
-Text Label 11975 6975 0    50   ~ 0
+Text Label 11925 6875 0    50   ~ 0
 L-DIO2
 Text Label 10950 6975 0    50   ~ 0
 L-DIO1
@@ -1195,27 +1193,6 @@ Connection ~ 8225 6675
 Wire Wire Line
 	8225 6675 8625 6675
 Wire Wire Line
-	8625 6875 8225 6875
-Wire Wire Line
-	8225 6875 8225 6775
-Connection ~ 8225 6775
-Wire Wire Line
-	9125 6675 9500 6675
-Wire Wire Line
-	9825 6675 9825 6800
-Wire Wire Line
-	9125 6775 9500 6775
-Wire Wire Line
-	9500 6775 9500 6675
-Connection ~ 9500 6675
-Wire Wire Line
-	9500 6675 9825 6675
-Wire Wire Line
-	9125 6875 9500 6875
-Wire Wire Line
-	9500 6875 9500 6775
-Connection ~ 9500 6775
-Wire Wire Line
 	9125 6975 9500 6975
 Wire Wire Line
 	9125 7075 9500 7075
@@ -1224,11 +1201,9 @@ Wire Wire Line
 Wire Wire Line
 	9125 7275 9500 7275
 Wire Wire Line
-	8250 6975 8625 6975
+	8250 6875 8625 6875
 Wire Wire Line
 	8250 7075 8625 7075
-Wire Wire Line
-	8250 7175 8625 7175
 Wire Wire Line
 	8250 7275 8625 7275
 Wire Wire Line
@@ -1252,18 +1227,9 @@ F 3 "" H 12825 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11925 6775 12375 6775
-Wire Wire Line
 	12825 6775 12825 6825
 Wire Wire Line
 	11925 6875 12375 6875
-Wire Wire Line
-	12375 6875 12375 6775
-Connection ~ 12375 6775
-Wire Wire Line
-	12375 6775 12825 6775
-Wire Wire Line
-	11925 6975 12375 6975
 Wire Wire Line
 	10950 6375 10950 6775
 Wire Wire Line
@@ -1678,12 +1644,12 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 60FEDC40
-P 9825 6800
-F 0 "#PWR0102" H 9825 6550 50  0001 C CNN
-F 1 "GND" H 9830 6627 50  0000 C CNN
-F 2 "" H 9825 6800 50  0001 C CNN
-F 3 "" H 9825 6800 50  0001 C CNN
-	1    9825 6800
+P 10025 6875
+F 0 "#PWR0102" H 10025 6625 50  0001 C CNN
+F 1 "GND" H 10030 6702 50  0000 C CNN
+F 2 "" H 10025 6875 50  0001 C CNN
+F 3 "" H 10025 6875 50  0001 C CNN
+	1    10025 6875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1727,14 +1693,62 @@ F 3 "" H 4625 8575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0106
 U 1 1 61008AFD
 P 14000 9375
-F 0 "#PWR?" H 14000 9225 50  0001 C CNN
+F 0 "#PWR0106" H 14000 9225 50  0001 C CNN
 F 1 "+3V3" H 14015 9548 50  0000 C CNN
 F 2 "" H 14000 9375 50  0001 C CNN
 F 3 "" H 14000 9375 50  0001 C CNN
 	1    14000 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11925 6775 12825 6775
+$Comp
+L power:GND #PWR?
+U 1 1 610D8D32
+P 12100 7000
+F 0 "#PWR?" H 12100 6750 50  0001 C CNN
+F 1 "GND" H 12105 6827 50  0000 C CNN
+F 2 "" H 12100 7000 50  0001 C CNN
+F 3 "" H 12100 7000 50  0001 C CNN
+	1    12100 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11925 6975 12100 6975
+Wire Wire Line
+	12100 6975 12100 7000
+Wire Wire Line
+	9125 6775 9500 6775
+Text Label 9125 6775 0    50   ~ 0
+I35
+Wire Wire Line
+	10025 6875 9125 6875
+Wire Wire Line
+	10025 6875 10025 6675
+Connection ~ 10025 6875
+Wire Wire Line
+	9125 6675 10025 6675
+Wire Wire Line
+	8625 6975 7825 6975
+Wire Wire Line
+	7825 6975 7825 6675
+Connection ~ 7825 6675
+Wire Wire Line
+	8625 7175 7825 7175
+Wire Wire Line
+	7825 7175 7825 7275
+$Comp
+L power:GND #PWR?
+U 1 1 611AF203
+P 7825 7275
+F 0 "#PWR?" H 7825 7025 50  0001 C CNN
+F 1 "GND" H 7830 7102 50  0000 C CNN
+F 2 "" H 7825 7275 50  0001 C CNN
+F 3 "" H 7825 7275 50  0001 C CNN
+	1    7825 7275
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

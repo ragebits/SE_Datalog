@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC3441EDE#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Linear Technology", "LTC3441EDE#PBF" (!) = "", "SON50P300X400X80-13N-D", "Small Outline No-lead", "584-LTC3441EDE#PBF", "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3441EDE%23PBF", "", "", "LTC3441EDE#PBF, Switching Regulator, Boost/Buck Controller 1.2A, Adjustable, 2.4  5.25 V, 1150 kHz, 12-Pin", "http://cds.linear.com/docs/en/datasheet/3441fb.pdf", "0.8 mm"
+END_PART
+
+END.

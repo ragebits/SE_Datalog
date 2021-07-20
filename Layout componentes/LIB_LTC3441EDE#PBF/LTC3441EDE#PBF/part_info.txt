@@ -1,0 +1,9 @@
+Manufacturer=Linear Technology
+PartNumber=LTC3441EDE#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=13
+Version=3.1
+Released=2015-05-24 21:47:42
+Downloaded=2021-07-20 19:10:17
+3D=Y
