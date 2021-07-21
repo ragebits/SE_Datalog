@@ -1,0 +1,20 @@
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-F_Cu.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-B_Cu.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-F_Paste.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-B_Paste.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-F_SilkS.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-B_SilkS.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-F_Mask.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-B_Mask.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-Edge_Cuts.gbr" created.
+Create Gerber job file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\SE_placa-job.gbrjob"
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-F_Cu.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-B_Cu.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-F_Paste.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-B_Paste.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-F_SilkS.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-B_SilkS.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-F_Mask.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-B_Mask.gbr" created.
+Plot file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-Edge_Cuts.gbr" created.
+Create Gerber job file "G:\OneDrive - Blackstone\Maestria\Semestre I\Fabricacion SE\SE_Datalog\SE_placa\gerber_files\SE_placa-job.gbrjob"
